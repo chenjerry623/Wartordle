@@ -38,8 +38,7 @@ function App() {
     <div className="App">
       <h1> Wartordle</h1>
       {solution && <Wordle solution = {solution} pokelist = {pokemonList} solutionImageLink = {solutionLink}/>}
-      <h1>solution: {solution}</h1>
-      {/*TODO: remove solution later */}
+      
     </div>
   )
 
